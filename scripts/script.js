@@ -54,7 +54,7 @@ canvasWidth.addEventListener('input',function (){
         canvasWidth.value = 100
     }
 
-    if (canvasWidth.value > 1280){
+    if (canvasWidth.value > 2000){
         canvasWidth.value = 2000
     }
     canvas.style.width = `${canvasWidth.value}px`
@@ -69,7 +69,7 @@ canvasHeight.addEventListener('input',function (){
         canvasHeight.value = 100
     }
 
-    if (canvasHeight.value > 1280){
+    if (canvasHeight.value > 2000){
         canvasHeight.value = 2000
     }
     canvas.style.height = `${canvasHeight.value}px`
