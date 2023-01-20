@@ -97,6 +97,8 @@ function notice() {
 canvas.addEventListener("mousedown", (e) => draw = true)
 canvas.addEventListener("mouseup", (e) => draw = false)
 
+window.addEventListener("mouseup", (e) => draw = false)
+
 canvas.addEventListener('mousemove',(e) => {
 
     if (prevX == null || prevY == null || !draw){
