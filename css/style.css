@@ -63,3 +63,7 @@ button:hover{
     color: #9f9f9f;
     transition: .3s;
 }
+
+audio{
+    height: 20px;
+}
